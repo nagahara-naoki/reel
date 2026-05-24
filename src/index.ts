@@ -1,12 +1,13 @@
-export { animateNumber, easingPresets, resolveEasing } from './animation';
+export { animateNumber, easingPresets, resolveEasing } from './animation/animate';
+export { ReelGroup } from './core/group';
+export { configure, initAll, Reel } from './core/reel';
 export {
   formatNumber,
   getGroupSeparator,
-  inferDecimalSeparator,
-  parseNumericValue
-} from './format';
-export { configure, initAll, Reel, ReelGroup } from './reel';
-export { injectReelCSS, reelCSS } from './styles';
+  inferDecimalSeparator
+} from './format/format';
+export { parseNumericValue } from './format/parse';
+export { injectReelCSS, reelCSS } from './styles/inject';
 export type {
   AnimateNumberOptions,
   AnimationControls,

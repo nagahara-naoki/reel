@@ -3,7 +3,7 @@ import type {
   AnimationControls,
   EasingFunction,
   EasingPreset
-} from './types';
+} from '../types';
 
 /**
  * Small easing table kept dependency-free for bundle size and predictable output.

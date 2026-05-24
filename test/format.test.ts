@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { formatNumber, getGroupSeparator, parseNumericValue } from '../src';
-import { formatValue } from '../src/format';
+import { formatValue } from '../src/format/format';
 
 describe('formatNumber', () => {
   it('formats comma grouped integers', () => {

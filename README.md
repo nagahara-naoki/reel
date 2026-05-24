@@ -8,6 +8,19 @@ The odometer animation library you know — reborn in TypeScript + ESM.
 
 `reel.js` gives dashboards, landing pages, and admin UIs a lightweight rolling number animation with no jQuery, no required CSS import, and first-class TypeScript types.
 
+## Demo
+
+Run the polished demo site locally:
+
+```bash
+pnpm install
+pnpm build
+open examples/index.html
+```
+
+The demo keeps code and animated output side by side, then links to simple, advanced, framework,
+and odometer migration examples.
+
 ## Install
 
 ```bash
@@ -245,7 +258,7 @@ pnpm typecheck
 pnpm build
 ```
 
-Open `examples/simple.html` after running `pnpm build` to start with the smallest JS example.
+Open `examples/index.html` after running `pnpm build` to view the polished demo site.
 The examples are split by difficulty:
 
 - Simple: `examples/simple.html`, `examples/markup-only.html`
@@ -253,4 +266,5 @@ The examples are split by difficulty:
 - Advanced: `examples/advanced.html`, `examples/odometer-comparison.html`
 - Framework adapters: `examples/frameworks/react.tsx`, `examples/frameworks/vue.vue`,
   `examples/frameworks/svelte.svelte`
-# reel
+
+For more guided usage, see `docs/USAGE.md`.

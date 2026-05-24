@@ -15,6 +15,7 @@
       "*.ts",
       "*.json",
       "*.md",
+      "docs/**/*.md",
       "examples/**/*.md",
       ".github/**/*.yml"
     ]
